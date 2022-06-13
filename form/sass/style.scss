@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+$roxoEspecial:rgba(120, 31, 223, 0.904);
 @mixin centralizar {
     display: flex;
     justify-content:center;
@@ -50,7 +51,7 @@ div{
 button{
     @include tamanhoPadrao();
     cursor: pointer;
-    border:rgba(120, 31, 223, 0.904) solid 2px ;
+    border:$roxoEspecial solid 2px ;
     &:hover{
         background-color: rgb(159, 73, 230);
     }
@@ -84,7 +85,6 @@ hr{
     color: blueviolet;
 }
 .borda{
-    border-bottom: rgba(120, 31, 223, 0.904) solid 3px;
+    border-bottom: $roxoEspecial solid 3px;
     border-radius: 5px;
-    
 }
