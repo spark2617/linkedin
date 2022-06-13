@@ -9,7 +9,7 @@ body {
   position: relative;
   height: 100vh;
   width: 100vw;
-  background: url("./fundo.jpg");
+  background: url("/form/img/fundo.jpg");
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
